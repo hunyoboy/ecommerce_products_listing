@@ -1,0 +1,8 @@
+{
+  "name": "products_listing",
+  "version": "1.0.0",
+  "description": "These files are supplementary informations to my <a href=\"http://joecaps.com/blog\">blog</a>.",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
