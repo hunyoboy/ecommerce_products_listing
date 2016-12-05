@@ -4,7 +4,7 @@ A simple Ecommerce Products Listing DEMO in AngularJS.
 
 ## Running On Node.js Server
 
-Before you begin, Node.js, NPM, and bower must be installed on your system. For download instructions for your platform, see http://nodejs.org/download/.
+Before you begin, Node.js, NPM, and Bower must be installed on your system. For download instructions for your platform, see http://nodejs.org/download/.
 
 Get all required NPM modules. **From the root of the repository**, execute the following command on your terminal:
 
@@ -27,7 +27,17 @@ Open a browser and go to http://localhost:8888/products
 
 Download or clone repository. Copy the repo's content inside the root of your Apache site.
 
-Open a browser and go to http://localhost/products
+Install Bower on your system.
+
+**From the root of the repository**, execute the following command on your terminal:
+
+`bower install`
+
+This downloads all needed libraries.
+
+Start Apache server and open http://{server_name}/products on your browser.
+
+Ex. http://localhost/products
 
 
 
