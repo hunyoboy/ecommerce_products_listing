@@ -2,7 +2,7 @@
 
 angular.module('productsListingApp')
 
-    .controller('ProductsCtrl', function($scope, Product, $location, SideBar) {
+    .controller('ProductsCtrl', function($scope, $rootScope, Product, $location, SideBar) {
 
         var getProducts = function() {
             var slug = SideBar.getSlug();
@@ -18,7 +18,21 @@ angular.module('productsListingApp')
             getProducts().then(function(data) {
                 $scope.products = data;
             });
+            $scope.searchTerm = '';
         });
+
+        $scope.search = function() {
+            if ($scope.searchTerm && $scope.searchTerm.trim().length > 0) {
+                $scope.breadCrumb = $scope.searchTerm;
+                Product.search($scope.searchTerm).then(function(data) {
+                    $scope.products = data;
+                });
+            }
+            else {
+                $scope.breadCrumb = 'all';
+            }
+            $rootScope.$broadcast('search:term', $scope.searchTerm);
+        };
 
 
         $scope.onLoad = function() {

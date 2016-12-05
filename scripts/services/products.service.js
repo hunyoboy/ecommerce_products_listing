@@ -39,20 +39,28 @@ angular.module('productsListingApp')
                     return undefined;
                 };
             },
+            onProductSearch = function(searchTerm) {
+                return function(products) {
+                    return _.filter(products, function(product) {
+                        return (product.title.toLowerCase().indexOf(searchTerm) !== -1 ||
+                            product.description.toLowerCase().indexOf(searchTerm) !== -1);
+                    });
+                };
+            },
             onAllProductsFound = function(categoryData) {
                 return function(products) {
                     if (!categoryData.category) {
                         return [];
                     }
-                    
+
                     var filteredProducts = _.filter(products, function(product) { return product.categories.indexOf(categoryData.category._id) !== -1; }),
-                    
-                    //combine all categories and all products into a single object
-                    dataSource = {
-                       categories: categoryData.categories,
-                       products: products
-                    };
-                    
+
+                        //combine all categories and all products into a single object
+                        dataSource = {
+                            categories: categoryData.categories,
+                            products: products
+                        };
+
                     //include all products that belong to each children of the current category               
                     filteredProducts = addProductsOfChildren(dataSource, categoryData.category.children, filteredProducts);
 
@@ -72,6 +80,11 @@ angular.module('productsListingApp')
                 .then(onAllCategoriesFound(categoryData, slug, Product))
                 .then(onAllProductsFound(categoryData));
 
+        };
+
+        resource.search = function(searchTerm) {
+            return this.query().$promise
+                .then(onProductSearch(searchTerm.toLowerCase()));
         };
 
         resource.getById = function(id) {

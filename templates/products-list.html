@@ -5,6 +5,18 @@
 		</div>
 	</div>
 	<div class="row">
+	  <div class="col-md-3">
+		<form class="navbar-left" role="search">
+			<div class="form-group">
+			<div class="input-group">
+				<span class="input-group-addon"><span class="fa fa-search"></span></span>
+				<input id="searchBox" type="text" class="form-control input-large" placeholder="Search" ng-model="searchTerm" ng-change="search()">
+			</div>
+			</div>
+		</form>
+	  </div>
+    </div>
+	<div class="row">
 		<div class="col-md-3">
 			<sidebar></sidebar>
 		</div>
