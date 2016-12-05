@@ -1,0 +1,101 @@
+[{
+	"_id": "580c6648d8d62233f4d92db9",
+	"title": "A Beautiful Red Dress",
+	"imageUrl": "/assets/uploads/red_dress.jpg",
+	"price": 26,
+	"description": "A beautiful satin red dress for you.",
+	"__v": 26,
+	"categories": ["580c6648d8d62233f4d92db7", "582116b9464b5e38ace8e15f"],
+	"featured": true,
+	"stock": 250
+}, {
+	"_id": "580c6648d8d62233f4d92dba",
+	"title": "Mean T-shirt",
+	"imageUrl": "/assets/uploads/meantshirt.jpg",
+	"price": 15,
+	"description": "T-shirt with the MEAN stack logo",
+	"__v": 16,
+	"categories": ["580c6648d8d62233f4d92db7", "58218bd781ce212f301dd45d"],
+	"featured": false,
+	"stock": 99
+}, {
+	"_id": "580c6648d8d62233f4d92dbc",
+	"title": "Coffee Mug",
+	"imageUrl": "/assets/uploads/meanmug.jpg",
+	"price": 8,
+	"description": "Convert coffee into MEAN code",
+	"__v": 8,
+	"categories": ["5821135b464b5e38ace8e153"],
+	"featured": true,
+	"stock": 0
+}, {
+	"_id": "580c6648d8d62233f4d92dbd",
+	"title": "Elk Ridge Hunting Knife",
+	"imageUrl": "/assets/uploads/hunting_knife.jpg",
+	"price": 88.5,
+	"description": "An elegant hunting knife from Elk Ridge.",
+	"__v": 4,
+	"categories": ["580c6648d8d62233f4d92db8"],
+	"featured": true,
+	"stock": 4
+}, {
+	"_id": "580c6648d8d62233f4d92dbe",
+	"title": "Signature Mens Hunting Boots",
+	"imageUrl": "/assets/uploads/hunting_boots.jpg",
+	"price": 150,
+	"description": "A tough hunting boots in waxed-canvas.",
+	"__v": 4,
+	"categories": ["580c6648d8d62233f4d92db8"],
+	"featured": false,
+	"stock": 19
+}, {
+	"_id": "580c6648d8d62233f4d92dbf",
+	"title": "Soft Skills: The Software Developer’s Life Manual",
+	"imageUrl": "/assets/uploads/soft-skills-cover.jpg",
+	"price": 50,
+	"description": "In this book, Simple Programmer founder, John Sonmez, shares everything he knows about becoming a successful software developer.",
+	"__v": 3,
+	"categories": ["580c6648d8d62233f4d92db6", "580c6648d8d62233f4d92db5", "58240680af91bf30d8166a23"],
+	"featured": true,
+	"stock": 50
+}, {
+	"_id": "5816da943b17173b84d7e333",
+	"title": "Dodger Caps",
+	"description": "Cool blue baseball cap from Dodgers.",
+	"price": 152.75,
+	"__v": 50,
+	"imageUrl": "/assets/uploads/SE1yxjaCETovRpBdBQltDD9T.jpg",
+	"categories": ["580c6648d8d62233f4d92db7", "58218be581ce212f301dd45e", "58218bd781ce212f301dd45d"],
+	"featured": true,
+	"stock": 1
+}, {
+	"_id": "5817899838f8ab2d60665196",
+	"title": "Red Designer Shirt",
+	"description": "Cool red shirt for you.",
+	"price": 27,
+	"__v": 18,
+	"imageUrl": "/assets/uploads/wyWlWZA5tpHpduChpswrUS-6.jpg",
+	"categories": ["580c6648d8d62233f4d92db7"],
+	"featured": false,
+	"stock": 0
+}, {
+	"_id": "581b91fb6bc7632634edf341",
+	"title": "Cat Product",
+	"description": "The Cutest Cat",
+	"price": 560,
+	"__v": 18,
+	"imageUrl": "/assets/uploads/Vg1Zj3odUpS80yDarmn_FHbM.jpg",
+	"categories": ["580c6648d8d62233f4d92db5"],
+	"featured": false,
+	"stock": 0
+}, {
+	"_id": "5826becbf69d4a2664039241",
+	"title": "Rose",
+	"description": "Red rose from my garden.",
+	"price": 6,
+	"__v": 4,
+	"imageUrl": "/assets/uploads/To4GUc0uNHWLHYf21BaCrA0_.jpg",
+	"categories": ["580c6648d8d62233f4d92db6"],
+	"featured": true,
+	"stock": 10
+}]

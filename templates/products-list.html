@@ -1,0 +1,41 @@
+<div class="container" ng-init="onLoad()">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">Products <small ng-bind-html="breadCrumb"></small></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<sidebar></sidebar>
+		</div>
+		<div class="col-md-3" ng-show="products.length < 1"> No products to show.</div>
+		<div class="products-listing">
+			<div class="col-md-3" ng-repeat="product in products">
+
+				<div class="thumbnail productbox">
+					<div class="productdescription">
+						<a ui-sref="viewProduct({id: product._id})">
+							<img src="{{product.imageUrl}}" alt="{{product.title}}" class="img-responsive">
+							<div class="producttitle">{{product.title}}</div>
+						</a>
+
+						<p>{{product.description}}</p>
+					</div>
+
+					<div class="productprice">
+						<div class="pull-right" ng-if="product.stock >= 1">
+							<a class="btn btn-danger btn-sm" role="button" id="{{product._id}}" name="{{product.title}}" price="{{product.price}}" data="product">BUY</a>
+						</div>
+						<div class="pull-right" ng-if="product.stock < 1">
+							<a ui-sref="viewProduct({id: product._id})" class="btn btn-sm btn-warning">
+								<span>Out Of Stock</span>
+							</a>
+						</div>
+						<div class="pricetext">{{product.price | currency }}</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

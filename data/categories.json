@@ -1,0 +1,160 @@
+[{
+	"_id": "580c6648d8d62233f4d92db4",
+	"name": "All",
+	"__v": 24,
+	"slug": "all",
+	"children": ["580c6648d8d62233f4d92db5", "580c6648d8d62233f4d92db6", "580c6648d8d62233f4d92db7", "580c6648d8d62233f4d92db8", "582116b9464b5e38ace8e15f", "58218bd781ce212f301dd45d"],
+	"ancestors": []
+}, {
+	"_id": "580c6648d8d62233f4d92db5",
+	"name": "Home",
+	"parent": "580c6648d8d62233f4d92db4",
+	"__v": 14,
+	"slug": "home",
+	"children": ["5821135b464b5e38ace8e153"],
+	"ancestors": ["580c6648d8d62233f4d92db4"]
+}, {
+	"_id": "580c6648d8d62233f4d92db6",
+	"name": "Books",
+	"parent": "580c6648d8d62233f4d92db4",
+	"__v": 8,
+	"slug": "books",
+	"children": ["58212dc2a9b180469c9078d3"],
+	"ancestors": ["580c6648d8d62233f4d92db4"]
+}, {
+	"_id": "580c6648d8d62233f4d92db7",
+	"name": "Clothing",
+	"parent": "580c6648d8d62233f4d92db4",
+	"__v": 13,
+	"slug": "clothing",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4"]
+}, {
+	"_id": "580c6648d8d62233f4d92db8",
+	"name": "Hunting",
+	"parent": "580c6648d8d62233f4d92db4",
+	"__v": 41,
+	"slug": "hunting",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4"]
+}, {
+	"_id": "5821135b464b5e38ace8e153",
+	"name": "Kitchen",
+	"parent": "580c6648d8d62233f4d92db5",
+	"__v": 12,
+	"slug": "home-kitchen",
+	"children": ["58212af351012f396458f450"],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db5"]
+}, {
+	"_id": "582116b9464b5e38ace8e15f",
+	"name": "Ladies",
+	"parent": "580c6648d8d62233f4d92db4",
+	"__v": 3,
+	"slug": "ladies",
+	"children": ["58215cd481114b14a04740f7"],
+	"ancestors": ["580c6648d8d62233f4d92db4"]
+}, {
+	"_id": "58212af351012f396458f450",
+	"name": "Knives",
+	"parent": "5821135b464b5e38ace8e153",
+	"__v": 4,
+	"slug": "home-kitchen-knives",
+	"children": ["58264dfd657a0443101ea371", "58264e16657a0443101ea372"],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db5", "5821135b464b5e38ace8e153"]
+}, {
+	"_id": "58212dc2a9b180469c9078d3",
+	"name": "Non-fiction",
+	"parent": "580c6648d8d62233f4d92db6",
+	"__v": 2,
+	"slug": "books-non-fiction",
+	"children": ["58212dd5a9b180469c9078d4", "58218b5d81ce212f301dd45c"],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db6"]
+}, {
+	"_id": "58212dd5a9b180469c9078d4",
+	"name": "International",
+	"parent": "58212dc2a9b180469c9078d3",
+	"__v": 0,
+	"slug": "books-non-fiction-international",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db6", "58212dc2a9b180469c9078d3"]
+}, {
+	"_id": "58215cd481114b14a04740f7",
+	"name": "Dress",
+	"parent": "582116b9464b5e38ace8e15f",
+	"__v": 0,
+	"slug": "ladies-dress",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "582116b9464b5e38ace8e15f"]
+}, {
+	"_id": "58218b5d81ce212f301dd45c",
+	"name": "Local",
+	"parent": "58212dc2a9b180469c9078d3",
+	"__v": 3,
+	"slug": "books-non-fiction-local",
+	"children": ["5823cf2caf91bf30d8166a1f", "5824064eaf91bf30d8166a21", "58240661af91bf30d8166a22"],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db6", "58212dc2a9b180469c9078d3"]
+}, {
+	"_id": "58218bd781ce212f301dd45d",
+	"name": "Men",
+	"parent": "580c6648d8d62233f4d92db4",
+	"__v": 2,
+	"slug": "men",
+	"children": ["58218be581ce212f301dd45e"],
+	"ancestors": ["580c6648d8d62233f4d92db4"]
+}, {
+	"_id": "58218be581ce212f301dd45e",
+	"name": "Clothing",
+	"parent": "58218bd781ce212f301dd45d",
+	"__v": 0,
+	"slug": "men-clothing",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "58218bd781ce212f301dd45d"]
+}, {
+	"_id": "5823cf2caf91bf30d8166a1f",
+	"name": "Suspense",
+	"parent": "58218b5d81ce212f301dd45c",
+	"__v": 1,
+	"slug": "books-non-fiction-local-suspense",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db6", "58212dc2a9b180469c9078d3", "58218b5d81ce212f301dd45c"]
+}, {
+	"_id": "5824064eaf91bf30d8166a21",
+	"name": "Children",
+	"parent": "58218b5d81ce212f301dd45c",
+	"__v": 0,
+	"slug": "books-non-fiction-local-children",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db6", "58212dc2a9b180469c9078d3", "58218b5d81ce212f301dd45c"]
+}, {
+	"_id": "58240661af91bf30d8166a22",
+	"name": "Tech",
+	"parent": "58218b5d81ce212f301dd45c",
+	"__v": 1,
+	"slug": "books-non-fiction-local-tech",
+	"children": ["58240680af91bf30d8166a23"],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db6", "58212dc2a9b180469c9078d3", "58218b5d81ce212f301dd45c"]
+}, {
+	"_id": "58240680af91bf30d8166a23",
+	"name": "Web Development",
+	"parent": "58240661af91bf30d8166a22",
+	"__v": 0,
+	"slug": "books-non-fiction-local-tech-web-development",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db6", "58212dc2a9b180469c9078d3", "58218b5d81ce212f301dd45c", "58240661af91bf30d8166a22"]
+}, {
+	"_id": "58264dfd657a0443101ea371",
+	"name": "Japan",
+	"parent": "58212af351012f396458f450",
+	"__v": 0,
+	"slug": "home-kitchen-knives-japan",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db5", "5821135b464b5e38ace8e153", "58212af351012f396458f450"]
+}, {
+	"_id": "58264e16657a0443101ea372",
+	"name": "China",
+	"parent": "58212af351012f396458f450",
+	"__v": 0,
+	"slug": "home-kitchen-knives-china",
+	"children": [],
+	"ancestors": ["580c6648d8d62233f4d92db4", "580c6648d8d62233f4d92db5", "5821135b464b5e38ace8e153", "58212af351012f396458f450"]
+}]

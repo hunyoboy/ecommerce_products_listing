@@ -1,0 +1,67 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <base href="/">
+  <title>Products Listing Demo</title>
+  <meta name="description" content="An demo on building a products listing page in AngularJs.">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+  <link rel="stylesheet" href="bower_components/angular-tree-dnd/dist/ng-tree-dnd.css" />
+  <!-- endbower -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body ng-app="productsListingApp">
+
+  <!--[if lt IE 7]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div ui-view=""></div>
+
+  <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>    
+  <![endif]-->
+
+  <!-- bower:js -->  
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/lodash/dist/lodash.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-tree-dnd/dist/ng-tree-dnd.js"></script>
+  <!-- endbower -->
+
+  <script src="scripts/app.js"></script>
+
+  <!-- services -->
+  <script src="scripts/services/category.service.js"></script>
+  <script src="scripts/services/products.service.js"></script>
+  <script src="scripts/services/sidebar.service.js"></script>
+  <!-- endservices -->
+
+  <!-- directives -->
+  <script src="scripts/directives/sidebar.directive.js"></script>
+  <!-- enddirectives -->
+
+  <!-- controllers -->
+  <script src="scripts/controllers/products.controller.js"></script>
+  <script src="scripts/controllers/sidebar.controller.js"></script>
+  <!-- endcontrollers -->
+
+</body>
+
+</html>
