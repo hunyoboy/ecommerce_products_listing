@@ -1,6 +1,6 @@
 # Ecommerce Products Listing
 
-A simple Ecommerce Products Listing DEMO in AngularJS.
+A simple Ecommerce Products Listing DEMO in AngularJS. See it in action here, http://joecaps.com/blog/demo/products-listing/products
 
 ## Running On Node.js Server
 
