@@ -75,9 +75,14 @@ angular.module('productsListingApp')
                 }
 
                 if (ancestorIds && ancestorIds.length > 0) {
-                    this.expandNodesByIds(secondLevelNodes, ancestorIds);
+                    var ancestorIdsTemp = [];
+                    ancestorIds.forEach(function(id){
+                        ancestorIdsTemp.push(id);
+                    });
+                    this.expandNodesByIds(secondLevelNodes, ancestorIdsTemp);
+                    ancestorIdsTemp = [];
                 }
-
+                
                 //return expanded nodes
                 return nodes;
 
@@ -194,7 +199,6 @@ angular.module('productsListingApp')
                 if (!ids && categories) {
                     ids = this.getAncestorIds(categories, slug);
                 }
-
                 if (ids) {
                     var categoryNamesObj = this.getCategoriesByIdsOrSlug(categories, slug, ids),
                         newBreadCrumbs = this.createBreadCrumb(ids, slug, categoryNamesObj);
